@@ -1,0 +1,23 @@
+#groovy for bank cds-project
+s*_1.0.0_jenkins.groovy
+
+#compile
+**/client/module/classes
+**/target
+**/deploy
+
+#client jdeveloper setting
+client/.data/
+
+#soa composite files
+*-Target.xml
+.designer
+**/SCA-INF
+
+#auto-test
+**/auto-test/resultsTest*
+**/auto-test/build
+/auto-test/*.txt
+
+#unit-test
+derby.log
